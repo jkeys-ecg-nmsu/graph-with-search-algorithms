@@ -1,0 +1,17 @@
+A	B	5
+B	D	5
+B	E	5
+E	B	5
+B	C	5
+E	F	5
+C	F	5
+E	G	5
+F	C	5
+F	H	5
+G	H	5
+H	K	5
+K	L	5
+L	J	5
+J	I	5
+I	G	5
+G	J	5

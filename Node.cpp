@@ -17,6 +17,7 @@ Node::Node(const string & name, int id, bool visited, int pre_visit, int post_vi
 void Node::setVisited() { m_visited = true; }  
 void Node::resetVisitedFlag() { m_visited = false; }
 
+void Node::setRank(int rank) { m_rank = rank; }
 void Node::setCC(int cc) { m_cc = cc; }  
 void Node::setPre(int pre) { m_pre_visit = pre; }  
 void Node::setPost(int post) { m_post_visit = post; }  
@@ -29,6 +30,7 @@ void Node::setLatitude(double lat) { m_latitude = lat; }
 //not sure how to make const correct
 const int Node::parent() const { return m_parent; }
 
+const int Node::rank() const { return m_rank; }
 int Node::id() const { return m_id; }
 const string & Node::name() const {  return m_name; }
 const bool Node::visited() const { return m_visited;  }

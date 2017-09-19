@@ -1,0 +1,13 @@
+aa	cc	4
+cc	dd	4
+dd	bb	4
+bb	aa	4
+cc	scc	4
+dd	scc	4
+scc	ww	4
+scc	yy	4
+ww	yy	4
+ww	xx	4
+xx	zz	4
+yy	zz	4
+zz	ww	4

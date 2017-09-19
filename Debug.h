@@ -17,6 +17,12 @@ void printStack(Graph & g, stack<Node> s);
 
 void printDist(Graph & g);
 
+void printMST(Graph & g, vector<Edge> E);
+
+void printEdges(Graph & g);
+
+std::string trim(const std::string& str, const std::string& whitespace = " \t\n\r");
+
 bool testall();
 
 #endif

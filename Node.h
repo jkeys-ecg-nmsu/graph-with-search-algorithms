@@ -35,6 +35,7 @@ private:
   int m_heap_idx;
   
   int m_parent;
+  int m_rank;
   
   int m_next;
   
@@ -49,6 +50,7 @@ public:
   void setVisited();
   void resetVisitedFlag();
   
+  void setRank(int rank);
   void setCC(int cc); 
   void setPre(int pre);
   void setPost(int post);
@@ -65,6 +67,7 @@ public:
   //not sure how to make const correct
   const int parent() const;
   
+  const int rank() const;
   int id() const;
   const string & name() const;
   const bool visited() const;

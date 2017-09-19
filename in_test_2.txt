@@ -1,0 +1,12 @@
+A	B	-1
+A	C	2
+B	D	1
+B	E	-3
+C	F	5
+C	G	-5
+H	Y	3
+F	X	4
+F	Y	6
+G	X	10
+A	Y	15
+C	X	7

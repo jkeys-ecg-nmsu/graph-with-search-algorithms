@@ -1,0 +1,4 @@
+AA	BB	4
+BB	CC	3
+CC	DD	2
+DD	EE	1
